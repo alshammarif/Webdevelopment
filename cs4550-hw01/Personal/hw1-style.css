@@ -1,0 +1,17 @@
+h1 {
+	color: black;
+	font-family: Arial;
+}
+
+p {
+	color: black;
+	font-family: Arial;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/326240/pexels-photo-326240.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat center center; 
+ 	background-size: cover;
+
+ 	height: 800px;
+ 	text-align: center; 
+}
