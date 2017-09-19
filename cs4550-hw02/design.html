@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<title> Web-Dev: Homework 1</title>
+  	<link href="design.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	
+	<h1>Design Document:</h1>
+
+	<div class="userf">
+	<h2>User-First Design:</h2>
+		<ul>
+			<li class="mp"><b>As a new User, I should be able to register a new account:</b></li>
+				<ul><li>User visits the home/main page</li>
+					<li>User clicks "sign up" button/link</li>
+					<li>User enters their email, name, and password in the correct 	fields</li>
+					<li>User then submits the form and awaits a confirmation email</li>
+					<li>User confirms their email and is free to log into their created account and use the website</li>
+				</ul>
+			<br />
+			<li class="mp"><b>As a user, I should be able to update my information</b></li>
+				<ul>
+					<li>User clicks the link "Profile" that takes them to the user profile page</li>
+					<li>User then checks the information before clicking "edit"</li>
+					<li>User changes any or all fields</li>
+					<li>User saves all changes or cancels request</li>
+					<li>User is take back to the Profile page to see updated information</li>
+				</ul>
+			<br />
+			<li class="mp"><b>As a user, I can create a new post</b></li>
+				<ul>
+					<li>User logs into account and is taken to a personal home page/dashboard</li>
+					<li>User clicks "New Post" button</li>
+					<li>User is taken to a new post page</li>
+					<li>User enters a message in the text box</li>
+					<li>User then clicks "Post" to save the message and post it. Or "cancel" to cancel request to post</li>
+					<li>User is taken back to personalized homepage to see their post has been added to the queue of posts</li>
+				</ul>
+			<br />
+			<li class="mp"><b>As a user, I should be able to follow another user</b></li>
+				<ul>
+					<li>User clicks the search bar or "maginifying glass"</li>
+					<li>User enters the username of the other user</li>
+					<li>User selects the user in the list of users</li>
+					<li>User is taken to user homepage</li>
+					<li>User clicks "follow" and is now changed to "unfollow"</li>
+					<li>User can now see followed users posts on their homepage/dashboard</li>
+				</ul>
+			<br />
+			<li class="mp"><b>As a user, I should be able to edit/delete an old post</b></li>
+				<ul>
+					<li>User finds wanted post</li>
+					<li>User clicks small menu/arrow selects "edit" or "delete"</li>
+					<li>User deletes post gets a warning before following through with the deletion</li>
+					<li>User editing post is taken to an editing page</li>
+					<li>User edits the message before clicking "save" or "cancel" to commit changes to the post</li>
+				</ul>
+			<br />
+			<li class="mp"><b>As a user, I should be able to tag another user in a post</b></li>
+				<ul>
+					<li>User selects post and clicks "edit" or creates a new post</li>
+					<li>User then finds the part of the post to tag the other user</li>
+					<li>To tag another user, the User must put '@username' in the text box</li>
+					<li>User can save changes to old post or post the new post</li>
+					<li>The other user gets a notification of the tag</li>
+					<li>User has now tagged another user</li>
+				</ul>
+			<br />
+			<li class="mp"><b>As a user, I can add hashtags to the post</b></li>
+				<ul>
+					<li>User selects post and clicks "edit" or creates a new post</li>
+					<li>User then finds the section of the post to add a hashtag</li>
+					<li>To create a hashtag, User must start with '#' and message i.e #awesome</li>
+					<li>User saves all changes or creates a new post</li>
+					<li>User has now added wanted #hashtags to wanted post</li>
+				</ul>
+		</ul>
+	</div>
+	<br />
+	<div class="dataf">
+	<h2>Data-First Design:</h2>
+		<ul>
+			<li class="mp"><b>User</b></li>
+				<ul>
+					<li>Name</li>
+					<li>Username</li>
+					<li>Email</li>
+					<li>Birthday</li>
+					<li>Joined Date</li>
+					<li>ID</li>
+					<li>Profile Pic</li>
+				</ul>
+				<br />
+			<li class="mp"><b>Post</b></li>
+				<ul>
+					<li>user-id</li>
+					<li>date</li>
+					<li>content/message</li>
+					<li>tags</li>
+				</ul>
+				<br />
+			<li class="mp"><b>Follow List</b></li>
+				<ul>
+					<li>follower-id</li>
+					<li>following-id</li>
+				</ul>			
+				<br />
+			<li class="mp"><b>Hashtag</b></li>
+				<ul>
+					<li>link</li>
+					<li>message</li>
+					<li>id</li>
+				</ul>			
+				<br />
+			<li class="mp"><b>Image</b></li>
+				<ul>
+					<li>Link</li>
+					<li>source</li>
+					<li>id</li>
+				</ul>			
+				<br />
+		</ul>
+	</div>
+</body>
+</html>

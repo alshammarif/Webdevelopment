@@ -1,0 +1,28 @@
+body {
+	font-family: Arial;
+}
+
+.mp {
+	color: blue;
+}
+
+ul {
+	list-style-type:disc;
+}
+
+h2 {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+}
+
+.userf {
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+.dataf {
+	margin-left: 10%;
+}
